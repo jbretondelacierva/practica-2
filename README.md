@@ -1,27 +1,22 @@
-<<<<<<< HEAD
 # Práctica 2. Creación de página web en HTML Puro
 
 
 ### Página principal: ``index.html``
-La página web consta de 3 sub-páginas todas ellas interconectadas. La página principal tiene 4 secciones. La primera contiene la cabecera, una imagen simple, un formulario y otra imagen capaz de redireccionar a la página ``MeliaRewardsAdvantages.html``. La segunda sección contiene un mapa en el que se muestran los hoteles cercanos, en este caso, en Madrid. La tercera contiene una serie de imágenes, también redireccionables a su respectivo sitio web (externos a la página creada) y otro formulario de suscripción a boletín de noticias. La última sección incluye una imagen direccionable a ``MeliaBrands.html``, con todas las marcas de la firma y un icono para cada red social, también redireccionable a dichas redes sociales. Todos los formularios contienen validación de los campos para que sean completados.
 
-Tanto la cabecera como la cuarta sección (marcas y redes sociales) se incluyen en todas las sub-páginas para dar uniformidad a todo el sitio web y poder dirigirse a dichos enlaces en cualquier sub-página. Clicando la cabecera en cualquiera de las sub-páginas, se es dirigido a esta página principal.
+La página web consta de 3 sub-páginas todas ellas interconectadas. 
+La página principal tiene 4 secciones. La primera contiene la cabecera, una imagen simple, una tabla con las marcas, un formulario para suscribirse al newspaper y un footer.
+En la cabecera tengo el logo de inditex y debajo un header simple que me lleva a la propio pagina y al resto de los 3 html.
 
 * #### Sub-página 1: ``contacto.html``
 Esta sub-página se divide en 3 secciones. La primera incluyendo la cabecera y el formulario para el check-in online, la segunda en la que se encuentra una tabla con imágenes y texto explicativo. Nuevamente en este formulario todos los campos incluyen su respectiva validación.
 
 * #### Sub-página 2: ``empleo.html``
-Esta es la sub-página más sencilla de todas, ya que se incluye sólo el formulario para iniciar sesión en la cuenta de Meliá con su validación correspondiente para cada campo. Caben resaltar los botones de Facebook y Google que permiten iniciar sesión con dichas plataformas en la cuenta de Meliá.
-
+En esta seccion se trata el empleo, en la primera tabla tenemos una imagen de una reunion y a la derecha
+tenemos un script con Inditex careers donde se publican las ofertas de trabajo.
+Tambien uso un script de google maps para indicar donde estan las oficinas centrales de 
+inditex.
 * #### Sub-página 3: ``info.html``
-Aunque parece la más compleja de todas, esta sub-página incluye tres secciones. La primera contiene las imágenes en las que se describen las ventajas de MeliáRewards. La segunda vuelve a incluir otra tabla con imágenes y texto explicativo.
-
+Es la pagina para inversores, tenemos una tabla donde tenemos un script de tradingview para poder ver el grafico y precio de la accion. Y a la derecha una lista de los ultimos informes anuales de la compañia, con el uso de botones.
+Debajo de la tabla tenemos un video que habla de los proveedores.
 * #### carpeta informes: ``MeliaRewardsRegister.html``
-Esta página incluye también una única sección en la que se muestra un formulario dividido en tres sub-secciones para registrar una cuenta en el programa de MeliáRewards. Se incluyen también dos checkboxes de confirmación sobre los términos y condiciones y el botón de suscripción.
-
-* #### Sub-página 5: ``MeliaRewardsBrands.html``
-En esta última página, con una sección, se describen todos los hoteles del grupo en los que se incluye para cada marca una imagen y una breve descripción para los clientes. Asimismo, también hay un botón que redirige a cada página oficial de los hoteles.
-=======
-# practica-2
-Empresa: INDITEX
->>>>>>> 856dcd999728ae1c9f2a6ec86dc71fbdbc72a196
+En esta carpeta hay 6 informes anuales de los resultados de Inditex, esta carpeta es usada por la subpagina info.html que incluye informacion para inversores.
